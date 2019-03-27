@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-size: 62.5%; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(world-map.jpeg);
+  /* background-position: center; */
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Italiana", serif;
+}
+
+h1 {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 100;
+
+  letter-spacing: 5;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #000000;
+  font-size: 125%;
+}
+.head-banner {
+  /* background-image: url(scroll.jpeg); */
+  background-color: white;
+  border-radius: 2rem;
+  height: 40vh;
+  opacity: 0.7;
+  width: 900px;
+  margin: 2rem auto;
+}
+. section {
+  padding: 50px;
+  height: 100%;
+}
+
+.column {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+button {
+  outline: none;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 100%;
+  font-family: "Italiana", serif;
+}
+
+button:hover {
+  background: #a9a9a9;
+  color: #000000;
+  text-transform: uppercase;
+}
+.fontawesome-button {
+  font-size: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px 25px;
+  border: solid 1px rgba(0, 0, 0, 0.27);
+  outline: none;
+  width: 50%;
+  text-align: center;
+  font-size: 120%;
+  font-family: "Italiana", serif;
+}
+.country-div {
+  border-radius: 2rem;
+  margin: 1rem auto;
+  padding: 2.5rem;
+  text-align: center;
+  opacity: 0.5;
+  width: 900px;
+}
+span {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 10rem;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1.5;
+  padding: 1rem 6rem;
+  text-transform: uppercase;
+  transition: all 1s;
+  transform: scale(1.05);
+}
+.country-div:hover {
+  background: red;
+  cursor: pointer;
+  transform: scale(1.1);
+}
