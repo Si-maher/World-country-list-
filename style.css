@@ -57,6 +57,7 @@ p {
 }
 button {
   background: rgb(0, 0, 255, 0.5);
+  border: solid 1px white;
   color:white;
   letter-spacing: 2px;
   outline: none;
@@ -73,6 +74,10 @@ button:hover {
   
   color:white;
   text-transform: uppercase;
+}
+.selected {
+  background: rgba(8, 218, 218, 0.5);
+
 }
 input {
   background: rgb(0, 0, 255, 0.5); 
@@ -108,8 +113,9 @@ img {
   justify-content: space-around;
 }
 .country-wrapper{
-  color: white;
-  background: rgb(0, 0, 255, 0.5);
+  color: black;
+  background: rgb(250, 250, 250, 0.8);
+  border:solid 1px white;
   max-width: 350px;
   margin: 5px;
   padding:5px;
