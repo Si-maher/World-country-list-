@@ -3,53 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  /* font-size: 62.5%; */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(world-map.jpeg);
-  /* background-position: center; */
-  background-size: cover;
   background-attachment: fixed;
   font-family: "Italiana", serif;
 }
+.wrapper{
+  height: auto;
+  padding: 150px;
+  width: 100%;
+  position: relative;
+}
+.video-background {
 
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+video{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  object-fit: cover;
+}
 h1 {
-  color: #000000;
+  border-bottom: 1px solid white;
+  color: #ffffff;
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 100px;
   font-weight: 100;
-
   letter-spacing: 5;
   margin-bottom: 15px;
 }
-
+.sub-title{
+  color: #ffffff;
+  font-size: 50px;
+}
 p {
-  color: #000000;
   font-size: 125%;
 }
-.head-banner {
-  /* background-image: url(scroll.jpeg); */
-  background-color: white;
-  border-radius: 2rem;
-  height: 40vh;
-  opacity: 0.7;
-  width: 900px;
-  margin: 2rem auto;
-}
-. section {
+
+.section {
   padding: 50px;
   height: 100%;
 }
-
 .column {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 25px;
 }
-
 button {
+  background: rgb(0, 0, 255, 0.5);
+  color:white;
+  letter-spacing: 2px;
   outline: none;
   padding: 15px 35px;
   border: none;
@@ -57,19 +66,17 @@ button {
   cursor: pointer;
   margin-right: 5px;
   font-size: 100%;
-  font-family: "Italiana", serif;
+  
 }
-
 button:hover {
-  background: #a9a9a9;
-  color: #000000;
+  background: rgb(0, 0, 255, 0.5);
+  
+  color:white;
   text-transform: uppercase;
 }
-.fontawesome-button {
-  font-size: 20px;
-}
-
 input {
+  background: rgb(0, 0, 255, 0.5); 
+  color:white;
   margin-bottom: 10px;
   border-radius: 20px;
   padding: 10px 25px;
@@ -77,8 +84,8 @@ input {
   outline: none;
   width: 50%;
   text-align: center;
-  font-size: 120%;
-  font-family: "Italiana", serif;
+  font-size: 150%;
+
 }
 .country-div {
   border-radius: 2rem;
@@ -88,19 +95,25 @@ input {
   opacity: 0.5;
   width: 900px;
 }
-span {
-  background-color: rgba(0, 0, 0, 0.9);
-  border-radius: 10rem;
-  color: #ffffff;
-  font-weight: bold;
-  letter-spacing: 1.5;
-  padding: 1rem 6rem;
-  text-transform: uppercase;
-  transition: all 1s;
-  transform: scale(1.05);
+
+
+img {
+  width: 20%;
 }
-.country-div:hover {
-  background: red;
-  cursor: pointer;
-  transform: scale(1.1);
+.result-section {
+  width: 70%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.country-wrapper{
+  color: white;
+  background: rgb(0, 0, 255, 0.5);
+  max-width: 350px;
+  margin: 5px;
+  padding:5px;
+  
+
+
 }
